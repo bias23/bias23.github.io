@@ -443,7 +443,7 @@ body >header a {
   }
 }
 #textlogo h2.blog-motto {
-  font-size: 0.7em;
+  font-size: 10.7em;
   font-weight: normal;
 }
 @media only screen and (min-width: 768px) {
@@ -1718,9 +1718,9 @@ section.comment {
   transition: color 0.25s;
 }
 footer {
-  margin-top: 1em;
-  background: #137456;
-  padding: 0 2% 0.5em;
+  margin-top: -2em;
+  background: #123456;
+  padding: 0 2% 5em;
 }
 #footer {
   width: 95%;
@@ -1878,6 +1878,16 @@ footer {
 }
 .copyright a:hover {
   color: #2ca6cb;
+}
+.welcome {
+  font-family: "covered_by_your_graceregular";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 200%;
+  line-height: 6.3em;
+  width: 50%;
+  margin: 0 auto;
+  color: #49ae0f;
 }
 .article-gallery {
   background: #fafafa;
