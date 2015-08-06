@@ -1719,7 +1719,7 @@ section.comment {
 }
 footer {
   margin-top: 0em;
-  background: #123456;
+  background: #123321;
   padding: 0 0% 2em;
 }
 #footer {
@@ -1752,6 +1752,34 @@ footer {
     position: absolute;
     left: 3em;
     margin: 0 0 1.5em;
+  }
+}
+#imgauthor {
+  float: left;
+  width: 15em;
+  height: 1em;
+}
+@media only screen and (min-width: 768px) {
+  #imgauthor {
+    width: 16em;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  #imgauthor {
+    width: 23.5em;
+  }
+}
+#imgauthor img {
+  width: 9em;
+}
+@media only screen and (min-width: 768px) {
+  #imgauthor img {
+    width: 10em;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  #imgauthor img {
+    width: 17.5em;
   }
 }
 .author {
@@ -1788,16 +1816,16 @@ footer {
   font-family: "covered_by_your_graceregular";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-size: 150%;
+  font-size: 170%;
   line-height: 1.3em;
   width: 90%;
   margin: 0 auto;
-  color: #fff;
+  color: #0ee;
 }
 @media only screen and (min-width: 768px) {
   .info {
-    margin: 4.5em 0 2em 0;
-    float: left;
+    margin: 3.5em 0 2em 0;
+    float: right;
     width: 75%;
   }
 }
@@ -1863,10 +1891,10 @@ footer {
 .copyright {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-family: "covered_by_your_graceregular";
+  font-family: Monaco, Menlo, Consolas, Courier New, monospace;
   width: 100%;
   color: #fff;
-  text-align: center;
+  text-align: right;
 }
 @media only screen and (min-width: 768px) {
   .copyright {
@@ -1879,12 +1907,31 @@ footer {
 .copyright a:hover {
   color: #2ca6cb;
 }
+.motto {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: "covered_by_your_graceregular";
+  width: 100%;
+  color: #fff;
+  text-align: right;
+}
+@media only screen and (min-width: 768px) {
+  .motto {
+    float: left;
+  }
+}
+.motto a {
+  color: #fff;
+}
+.motto a:hover {
+  color: #2ca6cb;
+}
 .welcome {
   font-family: "covered_by_your_graceregular";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-size: 300%;
-  line-height: 2em;
+  line-height: 2.4em;
   width: 50%;
   margin: 0 auto;
   color: #49ae0f;
@@ -1895,7 +1942,7 @@ footer {
   -moz-osx-font-smoothing: grayscale;
   font-size: 300%;
   line-height: 2.4em;
-  width: 70%;
+  width: 50%;
   margin: 0 auto;
   color: #49ae0f;
 }
