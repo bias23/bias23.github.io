@@ -788,7 +788,7 @@ header nav ul li a:hover {
 }
 .post a:hover,
 .page a:hover {
-  color: #666;
+  color: #2ca6cb;
 }
 @media only screen and (min-width: 768px) {
   article header.article-info {
@@ -1844,7 +1844,7 @@ footer {
   .social-font {
     width: 18em;
     position: absolute;
-    right: 60em;
+    right: 95em;
     top: 23em;
   }
 }
@@ -1862,7 +1862,7 @@ footer {
   }
 }
 .social-font a:hover:before {
-  color: #2ca6cb;
+  color: #eb182c;
 }
 .social-font a[title="weibo"]::before,
 .social-font a[title="twitter"]::before,
